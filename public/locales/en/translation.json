@@ -1,0 +1,23 @@
+{
+    "main":{
+        "title__name":"Vladislav Ankudo",
+        "description": "I have been actively engaged in web development for almost two years and during this time I have gained considerable experience in this field. At the moment I continue to develop, focusing on the study of React. My motivation and desire for self-improvement allowed me to master various technologies and approaches, which led to the development of high-quality web applications. I am focused on constantly improving my skills and strive to actively participate in exciting projects that will allow me to grow as a developer.",
+        "developer":"developer",
+        "contact": "Contact me",
+        "skills":"Skills",
+        "backend":"However, my work is not limited only to the frontend. I also have experience working with the backend of applications using ",
+        "backend__second":"Node.js and the Express framework",       
+        "backend__three":"I am also familiar with",       
+        "backend__four":"and I have experience working with a database such as",
+        "language":"Languages",
+        "eng":"English - А2",
+        "rus":"Russian",
+        "studies":"Education",
+        "college":"Molodechno Trade and Economic College - secondary-special",
+        "myproject": "My projects",
+        "goback":"go back",
+        "repo": "Repository",
+        "demo": "demo"
+        
+    }
+}
