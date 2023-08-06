@@ -59,16 +59,18 @@ export const Projects = () => {
       <NavLink
         to="/"
         className="header__links-nav"
-        style={{ fontSize: "20px", gap: "5px" }}
+        style={{ fontSize: "20px", display: 'inline'}}
       >
-        <LanguageSVG />
+        <span>
+        <LanguageSVG style={{verticalAlign: 'middle', marginRight:'5px'}} />
         {t("main.goback")}
+        </span>
       </NavLink>
       <div className="full__sliders">
         <div className="one__proect">
           <div className="slider__title">COMPUTER STORE</div>
           <div className="projects__links">
-            <NavLink className="projects__link">
+            <NavLink to='https://github.com/VladislavAnkudo/computer-store' target='_blank' className="projects__link">
               <RepoSVG />
               {t("main.repo")}
             </NavLink>
@@ -217,12 +219,12 @@ export const Projects = () => {
         <div className="one__proect">
           <div className="slider__title">QUBIT</div>
           <div className="projects__links">
-            <NavLink className="projects__link">
+            <NavLink to='https://github.com/VladislavAnkudo/qubit' target='_blank' className="projects__link">
               <RepoSVG />
               {t("main.repo")}
             </NavLink>
-            <NavLink className="projects__link">
-              <ShowSVG />
+            <NavLink to='https://vladislavankudo.github.io/qubit/' target='_blank' className="projects__link">
+              <ShowSVG/>
               {t("main.demo")}
             </NavLink>
           </div>
@@ -285,11 +287,11 @@ export const Projects = () => {
         <div className="one__proect">
           <div className="slider__title">CV</div>
           <div className="projects__links">
-            <NavLink className="projects__link">
+            <NavLink to='https://github.com/VladislavAnkudo/summary' target='_blank' className="projects__link">
               <RepoSVG />
               {t("main.repo")}
             </NavLink>
-            <NavLink className="projects__link">
+            <NavLink to='https://summary-lilac.vercel.app/' target='_blank' className="projects__link">
               <ShowSVG />
               {t("main.demo")}
             </NavLink>
